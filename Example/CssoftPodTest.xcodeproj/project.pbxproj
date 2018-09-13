@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1220B318BE6C0B1CF26A33B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1220B318BE6C0B1CF26A33B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2EA8B13A110E8175F2B29AA6 /* Pods_CssoftPodTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CssoftPodTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		443115609DEEFDFB3DCC13E2 /* Pods-CssoftPodTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CssoftPodTest_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CssoftPodTest_Example/Pods-CssoftPodTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		47DC9AEA09E0CF75115861BA /* Pods-CssoftPodTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CssoftPodTest_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CssoftPodTest_Example/Pods-CssoftPodTest_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -42,8 +42,8 @@
 		607FACE51AFB9204008FA782 /* CssoftPodTest_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CssoftPodTest_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7C05136469F747897175EF73 /* CssoftPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CssoftPodTest.podspec; path = ../CssoftPodTest.podspec; sourceTree = "<group>"; };
-		B9AB27E241E3B996F4ADDC16 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7C05136469F747897175EF73 /* CssoftPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CssoftPodTest.podspec; path = ../CssoftPodTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B9AB27E241E3B996F4ADDC16 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DE48E66DDA093F1A98498474 /* Pods-CssoftPodTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CssoftPodTest_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CssoftPodTest_Tests/Pods-CssoftPodTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EECAF82A7275D956AAD52E7C /* Pods_CssoftPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CssoftPodTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0037EFEE727268A2ADF588A /* Pods-CssoftPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CssoftPodTest_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CssoftPodTest_Tests/Pods-CssoftPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -266,15 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CssoftPodTest_Tests-checkManifestLockResult.txt",
 			);
@@ -288,15 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CssoftPodTest_Example-checkManifestLockResult.txt",
 			);
@@ -310,15 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CssoftPodTest_Example/Pods-CssoftPodTest_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CssoftPodTest/CssoftPodTest.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CssoftPodTest.framework",
 			);
